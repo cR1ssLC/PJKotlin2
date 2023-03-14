@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:hint="Nombres"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/paterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:hint="Paterno"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/materno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:hint="Materno"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="guardar"/>
+
+</LinearLayout>
